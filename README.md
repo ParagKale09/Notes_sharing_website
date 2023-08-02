@@ -13,3 +13,7 @@ Hello! <br/>
 <p/>
     
 ## <picture><img src = "https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/about_me.gif" width = 50px></picture> About Project
+  1 - When We open the Website it will look like this. <br/>
+   <br/>
+  <img height="100%" width="100%" align="center" src="./preview/Preview1.png" alt="ParagKale09" />
+   <br/>
