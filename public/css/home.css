@@ -1,0 +1,400 @@
+body {
+    margin: 0;
+}
+
+/* Nav Bar -------  Nav Bar --------- Nav Bar --------- Nav Bar --------- Nav Bar --------- Nav Bar */
+
+.first-container {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 20px;
+}
+
+li,
+a,
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 0.7777777778rem;
+    color: #34495e;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+.logo {
+    height: 46px;
+    position: absolute;
+    left: 60px;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: #32a89b;
+}
+
+.login-button {
+    position: absolute;
+    top: 20px;
+    right: 28px;
+    cursor: pointer;
+    padding: 9px 23px;
+    background-color: #4fc2b5;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+}
+
+.login-button:hover {
+    background-color: #7bdbd1;
+}
+
+/* Heading ------------ Heading ------------ Heading ------------ Heading ------------ Heading -----*/
+
+.back-green {
+    position: absolute;
+    height: 1000px;
+    top: 71px;
+    width: 1300px;
+    right: 0px;
+}
+
+.friends {
+    position: absolute;
+    top: 110px;
+    width: 58%;
+    right: -90px;
+}
+
+.head-text {
+    width: 31%;
+    margin-top: 90px;
+    margin-left: 80px;
+    background-color: white;
+}
+
+.head-img {
+    width: 5%;
+}
+
+.download-heading {
+    text-align: justify;
+    width: 28.5%;
+    position: absolute;
+    left: 108px;
+    top: 251px;
+}
+
+.upload-heading {
+    text-align: justify;
+    width: 28.5%;
+    position: absolute;
+    left: 108px;
+    top: 330px;
+}
+
+.thumb {
+    margin-top: 25px;
+}
+
+.feedback-heading {
+    text-align: justify;
+    width: 28.5%;
+    position: absolute;
+    left: 108px;
+    top: 395px;
+}
+
+/* third-container---- third-container---- third-container---- third-container---- third-container- */
+
+.third-container {
+    margin-top: 120px;
+    position: relative;
+}
+
+.third-title {
+    width: 12%;
+    margin-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.third-hr {
+    position: relative;
+    bottom: 10px;
+}
+
+.notes-container {
+    margin: 29px 65px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pdf {
+    background-color: white;
+    border: 1px solid rgb(188, 196, 193);
+    border-radius: 0.375rem;
+    margin: 12px;
+    width: 530px;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 2px 2px 10px;
+}
+
+.notes-hrline {
+    top: 92px;
+    right: 115px;
+    position: relative;
+    transform: rotate(90deg);
+    width: 200px;
+}
+
+.pdf-view {
+    width: 30%;
+    height: 100%;
+    background-color: white;
+}
+
+.pdf-title {
+    width: 60%;
+    margin-left: 180px;
+    height: 43px;
+}
+
+.subject-name-class {
+    display: flex;
+    margin-left: 180px;
+    width: 300px;
+    height: 25px;
+}
+
+.pdf-subjname {
+    margin: 1px;
+    padding-top: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 20px;
+    background-color: rgb(188, 196, 193);
+    border-radius: 1px;
+}
+
+.provider {
+    margin-left: 180px;
+}
+
+.first-page2 {
+    position: relative;
+    bottom: 165px;
+    width: 25%;
+    margin: 10px;
+}
+
+.subject-button-class {
+    text-align: center;
+}
+
+.subject-button {
+    appearance: none;
+    background-color: #0d6efd;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+        sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    right: 10px;
+    text-align: center;
+}
+
+.subject-button:hover {
+    background-color: #0b5ed7;
+}
+
+/* fourth-container-- fourth-container-- fourth-container-- fourth-container-- fourth-container-- */
+.fourth-container {
+    margin-top: 80px;
+}
+
+.Why {
+    height: 350px;
+}
+.why-heading {
+    margin-left: 30px;
+    width: 20%;
+}
+
+.why-description {
+    margin-left: 30px;
+    width: 40%;
+    font-size: large;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #505556;
+}
+
+.icons {
+    position: relative;
+    left: 600px;
+    bottom: 210px;
+    width: 50%;
+    height: 200px;
+}
+
+.document {
+    text-align: center;
+    width: 40%;
+    height: 100px;
+    margin-left: 10px;
+}
+
+.document-description {
+    margin: 6px;
+    width: 100%;
+    color: #323333;
+}
+
+.free {
+    text-align: center;
+    position: relative;
+    width: 40%;
+    height: 100px;
+    left: 290px;
+    bottom: 100px;
+}
+
+.free-description {
+    margin: 6px;
+    width: 100%;
+    color: #323333;
+}
+
+.accurate {
+    position: relative;
+    text-align: center;
+    width: 40%;
+    height: 100px;
+    margin-left: 10px;
+    bottom: 100px;
+}
+
+.thumb-icon {
+    rotate: 180deg;
+}
+
+.accurate-description {
+    margin: 4px;
+    width: 100%;
+    color: #323333;
+}
+
+.feedback {
+    position: relative;
+    text-align: center;
+    width: 40%;
+    height: 100px;
+    left: 290px;
+    bottom: 200px;
+}
+
+.feedback-description {
+    margin: 4px;
+    width: 100%;
+    color: #323333;
+}
+
+/* footer----  footer---- footer---- footer---- footer---- footer---- footer---- footer---- footer----*/
+
+.footer {
+    background-color: #ebf0ef;
+    height: 70px;
+    margin-top: 30px;
+}
+
+.media-icons {
+    position: relative;
+    top: 30px;
+    width: 30%;
+    height: 20px;
+    margin-left: 40px;
+}
+
+.twitter {
+    position: absolute;
+    margin: 3px;
+    width: 8%;
+    left: 100px;
+    top: -6px;
+}
+
+.linkedin {
+    position: absolute;
+    margin: 3px;
+    width: 8%;
+    left: 150px;
+    top: -6px;
+}
+
+.instagram {
+    position: absolute;
+    margin: 3px;
+    width: 8%;
+    left: 200px;
+    top: -6px;
+}
+
+.copyright {
+    width: 30%;
+    margin-left: 800px;
+    margin-top: 10px;
+}
+
+.dsubject-button {
+    appearance: none;
+    background-color: #0d6efd;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+        sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+}
+
+.dsubject-button:hover {
+    background-color: #0b5ed7;
+}
+
+.dsubject-button {
+    bottom: 175px;
+    left: 25px;
+}

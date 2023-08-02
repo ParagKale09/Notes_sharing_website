@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 430">
+  <defs>
+    <linearGradient id="seller-a" x1=".766%" x2="54.957%" y1="42.859%" y2="49.01%">
+      <stop offset="0%" stop-color="#2ECC71" />
+      <stop offset="99.984%" stop-color="#3196A2" />
+    </linearGradient>
+  </defs>
+  <path fill="url(#seller-a)" fill-rule="evenodd"
+    d="M0,0 C318.0625,21.1374448 558.0625,36.7632633 720,46.8774556 C881.9375,56.9916478 1121.9375,56.9916478 1440,46.8774556 L1440,380.923212 C1321.85302,351.293281 1176.01969,340.59826 1002.5,348.838149 C828.980313,357.078039 494.813646,384.131989 0,430 L0,0 Z"
+    transform="matrix(-1 0 0 1 1440 0)" />
+</svg>

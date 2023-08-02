@@ -1,0 +1,98 @@
+.form {
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 130px;
+    height: 350px;
+    width: 28%;
+    border-radius: 8px;
+}
+
+.img-container {
+    top: 15px;
+    position: relative;
+    height: 110px;
+}
+
+.heading {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-left: 135px;
+    top: -10px;
+}
+
+.logo-heading {
+    display: inline-block;
+    position: absolute;
+    width: 190px;
+    margin-left: 115px;
+    top: 11px;
+    font-size: 1.7em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.insights {
+    position: relative;
+    color: #15b5b0;
+    right: 6px;
+}
+
+.logo {
+    left: 35px;
+    top: 28px;
+    position: absolute;
+    width: 20%;
+}
+
+.input {
+    height: 25px;
+    left: 25px;
+    position: relative;
+    width: 80%;
+    border: none;
+    background: none;
+    box-shadow: 0px 1px 0px 0px rgb(188, 196, 193);
+    width: 80%;
+    color: black;
+    font-size: 1em;
+    outline: none;
+}
+.username {
+    top: 20px;
+}
+
+.email {
+    top: 40px;
+}
+
+.password {
+    top: 60px;
+}
+
+.cpassword {
+    top: 80px;
+}
+
+.btn-login {
+    position: relative;
+    background: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    border: none;
+    background-color: #15b5b0;
+    top: 90px;
+    left: 130px;
+    color: whitesmoke;
+    box-shadow: 0px 0px 0px 2px white;
+    border-radius: 3px;
+    padding: 6px 1em;
+    transition: 0.5s;
+}
+
+.btn-login:hover {
+    background: #20a1a1;
+    color: whitesmoke;
+    transition: 0.5s;
+    cursor: pointer;
+}
